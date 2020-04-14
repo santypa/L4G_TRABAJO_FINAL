@@ -28,7 +28,7 @@
          </div>
          <div id="login">
          <img src="ico/inicio.png" class="log" alt="Avatar Image"> 
-         <a href="invitado.php">   <input type="submit" value="LOGIN" id="invi" class="animated infinite pulse delay-2s"  ></a>
+         <a href="invitado.php">   <input type="submit" value="Login" id="invi" class="animated infinite pulse delay-2s"  ></a>
          </div>
 
 
