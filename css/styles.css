@@ -81,7 +81,7 @@ body {
   #regt{
     font: caption;
     font-size: 12pt; 
-    
+    width: 50%;
     background:rgba(58, 209, 95, 0.465);
     color: black;
     top: 14%;
@@ -111,6 +111,7 @@ body {
     border-style: outset;
   }
   #invi{
+    width: 50%;
     font: caption;
     font-size: 12pt; 
     background:rgba(58, 209, 95, 0.465);
@@ -127,6 +128,7 @@ body {
   }
 
   #login{
+  
     background: url(../img/2.jpg) no-repeat center top;
     color: black;
     top: 90%;
