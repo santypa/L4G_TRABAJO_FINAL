@@ -36,7 +36,7 @@
 
             <input type="email" name="direccion" placeholder="Direccion" id="l6" required>
             <img src="ico/map.png" class="animated infinite pulse" alt="Avatar Image" id="ma"> 
-            
+
             <input type="email" name="ciudad" placeholder="Ciudad" id="l7" required>
             <img src="ico/ciu.png" class="animated infinite pulse" alt="Avatar Image" id="ci"> 
 
@@ -46,6 +46,7 @@
          <div id="registrar">
          <img src="ico/reg.png" class="reg" alt="Avatar Image">
          <input type="submit" value="Registrar" id="regt"class="animated infinite pulse delay-2s" >
+         <a href="index.php"><input type="submit" value="Inicio" id="regti"class="animated infinite pulse delay-2s" ></a>
          </div>
 
     </div >    
