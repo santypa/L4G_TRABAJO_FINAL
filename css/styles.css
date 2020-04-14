@@ -81,8 +81,7 @@ body {
   #regt{
     font: caption;
     font-size: 12pt; 
-    
-    background:rgba(58, 209, 95, 0.465);
+    background:rgba(58, 154, 209, 0.465);
     color: black;
     top: 14%;
     left: 43%;
@@ -113,7 +112,7 @@ body {
   #invi{
     font: caption;
     font-size: 12pt; 
-    background:rgba(58, 209, 95, 0.465);
+    background:rgba(58, 154, 209, 0.465);
     color: black;
     top: 14%;
     left: 43%;
@@ -124,6 +123,22 @@ body {
     border-radius: 40px;
     border: 2px solid DodgerBlue;
     border-style: outset;
+  }
+  #lgi{
+    font: caption;
+    font-size: 12pt; 
+    background:rgba(58, 154, 209, 0.465);
+    color: black;
+    top: 14%;
+    left: 43%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px 30px; 
+    border-radius: 40px;
+    border: 2px solid DodgerBlue;
+    border-style: outset;
+
   }
 
   #login{
