@@ -19,16 +19,17 @@
         
          <div id="registrar">
          <img src="ico/reg.png" class="reg" alt="Avatar Image">
-         <a href="registro.php">  <input type="submit" value="Registrar" id="regt"class="animated infinite pulse delay-2s" ></a>
+         <a href="registro.php">  <input type="submit" value="Registrar" id="regt"class="animated infinite pulse " ></a>
          </div>
          
          <div id="invitado">
          <img src="ico/v.png" class="inv" alt="Avatar Image"> 
-         <a href="invitado.php">   <input type="submit" value="Invitado" id="invi" class="animated infinite pulse delay-2s"  ></a>
+         <a href="invitado.php">   <input type="submit" value="Invitado" id="invi" class="animated infinite pulse "  ></a>
          </div>
+         
          <div id="login">
          <img src="ico/inicio.png" class="log" alt="Avatar Image"> 
-         <a href="invitado.php">   <input type="submit" value="LOGIN" id="lgi" class="animated infinite pulse delay-2s"  ></a>
+         <a href="login.php">   <input type="submit" value="LOGIN" id="lgi" class="animated infinite pulse "  ></a>
          </div>
 
 

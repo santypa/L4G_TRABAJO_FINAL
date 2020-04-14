@@ -31,13 +31,13 @@
             <input type="password" name="clave" placeholder="Contraseña" id="l4"  required>
             <img src="ico/hacker.png" class="animated infinite pulse delay-2s" alt="Avatar Image" id="ps"> 
 
-            <input type="email" name="celular" placeholder="Celular" id="l5"  required>
+            <input type="text" name="celular" placeholder="Celular" id="l5"  required>
             <img src="ico/telefono.png" class="animated infinite pulse" alt="Avatar Image" id="te"> 
 
-            <input type="email" name="direccion" placeholder="Direccion" id="l6" required>
+            <input type="text" name="direccion" placeholder="Direccion" id="l6" required>
             <img src="ico/map.png" class="animated infinite pulse" alt="Avatar Image" id="ma"> 
 
-            <input type="email" name="ciudad" placeholder="Ciudad" id="l7" required>
+            <input type="text" name="ciudad" placeholder="Ciudad" id="l7" required>
             <img src="ico/ciu.png" class="animated infinite pulse" alt="Avatar Image" id="ci"> 
 
          </div>

@@ -1,0 +1,157 @@
+body {
+    background: url(../img/8.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+
+  .tobar{
+    background: url(../img/13.jpg);
+    width: 620px;
+    height:310px;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+    border-radius: 30px;
+    border: 2px solid rgb(21, 49, 77);
+    border-style: outset;
+  }
+  
+  .tobar .avatar{
+    width: 180px;
+    height: 146px;
+    border-radius: 30%;
+    position: absolute;
+    top: 30%;/* para ubicar el avatar arriba*/
+    left: 2%;
+  
+  }
+
+  #ge{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    top: 5px;/* para ubicar el avatar arriba*/
+    left: 4%;
+    
+  }
+
+  #pas{
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    top: 5.5px;/* para ubicar el avatar arriba*/
+    left: 4%;
+  }
+ 
+ 
+  #gmail{
+    background-color:silver;
+    color: black;
+    top: 15%;
+    left: 63%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 200px; 
+    border-radius: 20px;
+    border: 2px solid rgb(16, 78, 139);
+    border-style: outset;
+  }
+
+  #gm{
+    font: caption;
+    font-size: 11pt; 
+    width: 75%;
+    color: black;
+    top: -3%;
+    left: 58%;
+    position: absolute;
+    transform: translate(-50%, 32%);
+    box-sizing: border-box;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    border-color: rgb(54, 54, 54);
+    
+  }
+
+  #passw{
+    background-color: silver;
+    color: black;
+    top: 40%;
+    left: 63%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 200px; 
+    border-radius: 20px;
+    font: message-box;
+    border: 2px solid rgb(9, 68, 128);
+    border-style: outset;
+  }
+  #passwo{
+    width: 60%;
+    font: caption;
+    font-size: 12pt; 
+    color: black;
+    top: 25%;
+    left: 53%;
+    position: absolute;
+    transform: translate(-50%, -12%);
+    box-sizing: border-box;
+    padding: 10px 25px; 
+    border-radius: 10px;
+    border-color: black;
+ 
+  }
+ 
+#inici{
+
+    color: black;
+    top: 74%;
+    left: 63%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 140px; 
+    border-radius: 30px;
+    
+
+}
+#ini{
+    font: caption;
+    font-size: 12pt; 
+    background:rgba(58, 154, 209, 0.465);
+    color: black;
+    top: 24%;
+    left: 6%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px 30px; 
+    border-radius: 150px;
+    border: 2px solid rgb(20, 20, 20);
+    border-style: outset;
+
+}
+#ini2{
+    font: caption;
+    font-size: 12pt; 
+    background:rgba(58, 154, 209, 0.465);
+    color: black;
+    top: 24%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px 30px; 
+    border-radius: 150px;
+    border: 2px solid rgb(20, 20, 20);
+    border-style: outset;
+}
