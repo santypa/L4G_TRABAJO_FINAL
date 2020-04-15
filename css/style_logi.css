@@ -20,7 +20,7 @@ body {
     border: 2px solid rgb(21, 49, 77);
     border-style: outset;
   }
-  
+
   .tobar .avatar{
     width: 180px;
     height: 146px;
@@ -138,8 +138,8 @@ body {
     border-radius: 150px;
     border: 2px solid rgb(20, 20, 20);
     border-style: outset;
-
 }
+
 #ini2{
     font: caption;
     font-size: 12pt; 
