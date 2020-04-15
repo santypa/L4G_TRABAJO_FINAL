@@ -30,7 +30,7 @@
 
         <div id="inici">
         <a href="index.php"> <input type="submit" value="INICIO" id="ini" class="animated infinite pulse delay"  ></a>
-        <a href=".php"> <input type="submit" value="ENTRAR" id="ini2" class="animated infinite pulse delay"  ></a>
+        <a href="pagi_invitado.php"> <input type="submit" value="ENTRAR" id="ini2" class="animated infinite pulse delay"  ></a>
         </div>
 
     </div >    
