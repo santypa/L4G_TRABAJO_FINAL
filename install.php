@@ -22,7 +22,7 @@
         if(DB::getConnection()->multi_query($sql)){
            //Se ejecuto la importación correctamente
            unlink('install.php');
-           header('Location: imprimir.php');
+           header('Location:index.php');
         }else{
             echo "No se ha podido importar la base de datos, verifique los errores";
         }
