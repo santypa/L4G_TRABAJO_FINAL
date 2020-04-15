@@ -20,7 +20,7 @@
         
          <div id="registrar">
          <img src="ico/reg.png" class="reg" alt="Avatar Image">
-         <input type="submit" value="Registrar" id="regt"class="animated infinite pulse delay-2s" >
+         <a href="crear.php">    <input type="submit" value="Registrar" id="regt"class="animated infinite pulse delay-2s" >
          
          </div>
          
