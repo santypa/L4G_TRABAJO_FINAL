@@ -4,9 +4,8 @@ body {
     font-family: sans-serif;
    
 }
-
-  .tobar{
-    background: url(../img/6.jpg) no-repeat center top;
+.tobar{
+    background: url(../img/6.jpg) center;
     width: 320px;
     height: 510px;
     color: aliceblue;
@@ -31,7 +30,6 @@ body {
     border-style: outset;
   
   }
-
   .tobar .reg{
     width: 70px;
     height: 70px;
@@ -50,8 +48,8 @@ body {
     top: 5.5px;/* para ubicar el avatar arriba*/
     left: calc(30% - 40px);
     
-   
   }
+
   .tobar .log{
     width: 60px;
     height: 60px;
@@ -60,11 +58,8 @@ body {
     top: 5.5px;/* para ubicar el avatar arriba*/
     left: calc(30% - 40px);
   }
- 
- 
   #registrar{
     background: url(../img/2.jpg) no-repeat center top;
-   
     color: black;
     top: 50%;
     left: 50%;
@@ -76,7 +71,6 @@ body {
     border: 2px solid rgb(16, 78, 139);
     border-style: outset;
   }
-
   #regt{
     font: caption;
     font-size: 12pt; 
@@ -93,10 +87,8 @@ body {
     border: 2px solid DodgerBlue;
     border-style: outset;
   }
-
   #invitado{
     background: url(../img/2.jpg) no-repeat center top;
-    
     color: black;
     top: 70%;
     left: 50%;
@@ -141,7 +133,7 @@ body {
     border-style: outset;
 
   }
-
+  
   #login{
   
     background: url(../img/2.jpg) no-repeat center top;
@@ -158,4 +150,3 @@ body {
     border-style: outset;
 
   }
-
