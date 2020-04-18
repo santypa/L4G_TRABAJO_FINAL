@@ -65,6 +65,7 @@
             if($reg > 0){
                 echo "<script>
                 window.location= 'interfas_usuario.php'
+                
                 </script>";
             }
         }
