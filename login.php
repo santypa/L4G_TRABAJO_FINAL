@@ -64,8 +64,13 @@
 
             if($reg > 0){
                 echo "<script>
+                alert('Usuario Correcto');
                 window.location= 'interfas_usuario.php'
-                
+                </script>";
+            }else{
+                echo "<script>
+                alert('El usuario no esta registrado');
+                window.location= 'login.php'
                 </script>";
             }
         }
