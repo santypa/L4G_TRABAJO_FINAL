@@ -45,15 +45,19 @@
         if(isset($_POST['btn1'])){
             $gmai= $_POST['gmail'];
             $pass=$_POST['passe'];
+            
 
             echo "<p>correo: {$gmai}, contraseña: {$pass} </p>";
             $usu=0;
             $reg=0;
             
             while($mostrar= mysqli_fetch_array($result)){
-               
+                //$nombres=$_POST["nombres"];
                 if($gmai==$mostrar['email'] && $pass == $mostrar['password'] ){
                         $reg++;
+                        $gmai=$mostrar['email'];
+                       // $nombres = $_POST["nombres"];
+
                         //echo "el usuario si existe {$reg}";  
                 }
                 else{     
@@ -61,7 +65,8 @@
                        // echo "sin registrar {$usu}";
                 }
             }  
-
+            session_start();
+            $_SESSION['gmail']=$gmai;
             if($reg > 0){
                 echo "<script>
                 alert('Usuario Correcto');
