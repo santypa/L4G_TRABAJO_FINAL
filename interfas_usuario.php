@@ -27,7 +27,7 @@
       <?php  
         session_start();
         $var=$_SESSION['gmail'];
-        echo "$var  asd   $nu";
+        echo "$var ";
         
       
       ?>
