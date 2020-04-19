@@ -25,9 +25,11 @@
    
    <div class="barin"> 
       <?php  
-        session_start();
+        SESSION_START();
         $var=$_SESSION['gmail'];
         echo "$var ";
+        SESSION_UNSET();
+        SESSION_DESTROY();
         
       
       ?>

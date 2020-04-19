@@ -34,7 +34,7 @@
          
          <input type="text" name="nombres" required placeholder="Nombres" id="l1" >
            
-         <input type="text" name="gemail" required placeholder="Email" id="l3" >
+         <input type="text" name="email" required placeholder="Email" id="l3" >
             <div id="gma">
             <img src="ico/gmail.png" class="animated infinite pulse" alt="Avatar Image" id="gm" > 
             </div>
@@ -54,35 +54,15 @@
             <input type="text" name="ciudad"  required placeholder="Ciudad" id="l7" >
             <img src="ico/ciu.png" class="animated infinite pulse" alt="Avatar Image" id="ci"> 
 
-            
          </div>
 
          <div id="registrar">
          <img src="ico/reg.png" class="reg" alt="Avatar Image">
-         <input type="submit"name="btreg" value="Registrar" id="regt"class="animated infinite pulse delay-2s"
-                <?php
-                if(isset($_POST['btreg'])){
-                    $gmai= $_POST['gmail'];
-                    $num=1;
-                    echo "<p>correo: {$gmai}</p>";
-                    $usu=0;
-                    while($mostrar= mysqli_fetch_array($result)){
-                        if($gmai==$mostrar['email']){
-                                $num++;
-                        }
-                        else{     
-                                $usu++;
-                        }
-                    }  
-                    session_start();
-                    $_SESSION['numero']=$num;
-                }
-                ?>    
-         >
+         <input type="submit" value="Registrar" id="regt"class="animated infinite pulse delay-2s" >
 
          </div>
          </form>
-         <a href="index.php"><input type="submit" value="Inicio" id="regti"class="animated infinite pulse delay-2s" ></a>
+         <a href="index.php"><input type="button" value="Inicio" id="regti"class="animated infinite pulse delay-2s" ></a>
     </div >    
 
 

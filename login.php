@@ -43,21 +43,18 @@
         <input type="submit" name="btn1"  value="ENTRAR" id="ini2" class="animated infinite pulse delay"  
         <?php
         if(isset($_POST['btn1'])){
+            $gmai="";
             $gmai= $_POST['gmail'];
             $pass=$_POST['passe'];
-            
-
             echo "<p>correo: {$gmai}, contraseña: {$pass} </p>";
             $usu=0;
             $reg=0;
-            
             while($mostrar= mysqli_fetch_array($result)){
                 //$nombres=$_POST["nombres"];
                 if($gmai==$mostrar['email'] && $pass == $mostrar['password'] ){
                         $reg++;
                         $gmai=$mostrar['email'];
                        // $nombres = $_POST["nombres"];
-
                         //echo "el usuario si existe {$reg}";  
                 }
                 else{     
