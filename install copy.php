@@ -8,7 +8,7 @@
         fwrite($file, "define('USER', '" . $_POST['user'] ."');" . PHP_EOL);
         fwrite($file, "define('PASSWORD', '" . $_POST['password'] ."');" . PHP_EOL);
         fwrite($file, "define('DB', '" . $_POST['db'] ."');" . PHP_EOL);
-        fwrite($file, "define('DB2', '" . $_POST['db2'] ."');" . PHP_EOL);
+        fwrite($file, "define('DB2', '" . $_POST['db'] ."');" . PHP_EOL);
         fwrite($file, "?>");
 
         fclose($file);
@@ -64,14 +64,10 @@
         </div>
 
         <div>
-            <label for="db">Db_User </label>
+            <label for="db">Database </label>
             <input type="text" name="db">
         </div>
-        <div>
-            <label for="db">Db_Product </label>
-            <input type="text" name="db2">
-        </div>
-
+      
         <button class="boton">Save</button>
     </div>
        
