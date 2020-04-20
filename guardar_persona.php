@@ -1,3 +1,15 @@
+<center>
+			<?php
+
+				if(isset($_SESSION['msg'])){
+					echo $_SESSION['msg'];
+					unset($_SESSION['msg']);
+				}
+
+			?>
+
+</center>
+
 <?php 
        include('includes/db.php');
    
@@ -22,7 +34,7 @@
                     $existe++;
 
             }else{
-                echo "-------" ;
+               /* echo "-------" ;*/
             }
         }
 
@@ -33,7 +45,12 @@
         values('$nombres', '$email',('$password'),'$celular','$whatsapp','$direccion','$ciudad')";
     
          if(DB::query($sql)){ //if($con->query($query) == true)
-        echo "Persona guardada correctamente  ";
+        echo " 
+        <script>
+			window.alert('¡Registro Exitoso!');
+			window.history.back();
+        </script> " 
+        ;
         
         
         //header("location:index.php");  
@@ -42,7 +59,12 @@
             } 
         }
         else{
-            echo " El correo ya existe $existe" ;
+            echo " 
+            <script>
+                window.alert('¡Correo Existente !');
+                window.history.back();
+            </script> " 
+            ;
         }
     
 ?>
